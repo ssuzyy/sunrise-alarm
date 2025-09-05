@@ -5,8 +5,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <h1>hiiiii :3</h1>
+        <title>Sunrise Alarm Setup</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
+      <h1>hiiiii :3</h1>
     </>
   );
 }
