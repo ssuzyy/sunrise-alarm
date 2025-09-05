@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["*"],
+      "@constants/*": ["constants/*"],
+      "@store/*": ["store/*"],
+      "@store/actions/*": ["store/actions/*"],
+      "@store/reducers/*": ["store/reducers/*"],
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["styles/*"]
     }
   }
 }
